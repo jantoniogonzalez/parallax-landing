@@ -1,0 +1,16 @@
+:root {
+  --background-grad-1: #4C9452;
+  --background-grad-2: #F7DD90;
+}
+
+
+
+.landing {
+  background: linear-gradient(var(--background-grad-1), var(--background-grad-2));
+  height: 100vh;
+  .landing-img {
+    min-width: 1024px;
+    width: 100%;
+    position: fixed;
+  }
+}
